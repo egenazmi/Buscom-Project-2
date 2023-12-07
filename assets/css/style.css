@@ -1,0 +1,864 @@
+/* 
+    
+    0. General    
+    1. Header
+    2. Banner
+    3. About
+    4. Services
+    5. Process
+    6. Portfolio
+    7. Expertise
+    8. Team
+    9. News
+
+    Colors  : #111d30, #ff4949, #ffffff, #333333, #232323, #666666, #263442
+    Fonts   :font-family: 'Roboto',sans-serif;
+
+
+    Topbar, Footer  : #111d30, #263442 (Copyright)
+    Primary Color   : #ff4949
+    White Colors    : #ffffff
+    Text Colors     : #333333, #232323, #666666
+
+
+*/
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  */
+
+
+/* General Styles Stars Here */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.text-white {
+    color: #ffffff !important;
+}
+
+.text-primary {
+    color: #ff4949 !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.float-left {
+    float: left;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.positin-absolute {
+    position: absolute;
+}
+
+.btn {
+    padding: 20px 45px;
+    font-size: 14px;
+    border-radius: 50px;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-primary {
+    border: 1px solid #ff4949;
+    background-color: #ff4949;
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.col-half {
+    width: 50%;
+    float: left;
+}
+
+.section-header {
+    font-weight: 700;
+    font-size: 36px;
+    color: #232323;
+    line-height: 1.2;
+}
+
+.section-subheader {
+    font-weight: 600;
+    font-size: 16px;
+    color: #666;
+    line-height: 26px;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #666;
+    line-height: 26px;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 1.2;
+    color: #232323;
+    margin-bottom: 20px;
+}
+
+.pt120 {
+    padding-top: 120px;
+}
+
+.text-decoration {
+    text-decoration: none;
+}
+
+.border {
+    border-left: 1px solid #293445;
+    border-right: 1px solid #293445;
+}
+
+.z-index {
+    z-index: 9999;
+    position: relative;
+}
+
+/* General Styles Ends Here */
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  */
+
+
+/* Topbar Styles Stars Here */
+
+#topbar {
+    height: 96px;
+    background-color: #111d30;
+    position: relative;
+}
+
+.contact-cards {
+    float: left;
+    width: 70%;
+}
+
+.contact-card:first-child {
+    padding-left: 0;
+}
+
+.contact-card {
+    float: left;
+    padding: 0 15px;
+}
+
+.card-header {
+    float: left;
+}
+
+.card-header i {
+    font-size: 40px;
+    color: #ff4949;
+    line-height: 96px;
+}
+
+.card-body {
+    float: left;
+    padding: 25px 0;
+}
+
+
+.card-title {
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.card-body p,
+.card-body h5 {
+    text-decoration: none;
+    margin: 0;
+    margin-left: 15px;
+}
+
+.topbar-container {
+    position: relative;
+}
+
+#topbar ul {
+    position: absolute;
+    right: 0;
+    padding: 40px 0;
+}
+
+#topbar ul li {
+    float: left;
+    list-style-type: none;
+    margin-right: 25px;
+}
+
+#topbar ul li a {
+    font-size: 20px;
+    color: white;
+
+}
+
+/* Topbar Styles Ends Here */
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  */
+
+/* Navbar Styles Stars Here */
+.navbar {
+    height: 90px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 11;
+}
+
+.navbar-logo {
+    width: 23%;
+}
+
+.navbar-logo img {
+    width: 130px;
+    padding: 20px 0;
+}
+
+.navbar-area {
+    width: 70%;
+    height: 94px;
+    position: relative;
+}
+
+.navbar-area ul {
+    margin: 0;
+    float: left;
+    position: absolute;
+    right: 30px;
+
+
+}
+
+.navbar-area ul li {
+    float: left;
+    list-style-type: none;
+    margin-right: 0px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    padding: 35px 10px;
+    border: 2px solid #ffffff;
+}
+
+.btn-area {
+    /* width: 10%; */
+    padding: 35px 0;
+    position: relative;
+    /* right: 350px; */
+}
+
+.btn-area i {
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+/* Navbar Styles Ends Here */
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  */
+
+
+/* Banner Styles Stars Here */
+#banner {
+    background-image: url(../img/3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+    z-index: 0;
+}
+
+.banner-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
+#banner .container {
+    padding: 250px 0px;
+}
+
+#banner h1 {
+    font-size: 65px;
+    line-height: 1.2;
+    margin-bottom: 35px;
+    padding: 0 150px;
+    z-index: 2;
+}
+
+#banner p {
+    line-height: 32px;
+    font-size: 18px;
+    margin-bottom: 35px;
+    padding: 0 200px;
+    z-index: 2;
+}
+
+/* Banner Styles Ends Here */
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  */
+
+
+/* About Styles Stars Here */
+#about {
+    padding: 100px 0;
+}
+
+.thumb {
+    position: relative;
+    width: 100%;
+}
+
+.thumb::before {
+    content: "";
+    position: absolute;
+    left: -45px;
+    top: -45px;
+    width: 150px;
+    height: 150px;
+    background-image: url(../img/bg-dotted.png);
+    background-size: 100%;
+    z-index: -1;
+}
+
+.thumb img:first-child {
+    width: 440px;
+    height: 440px;
+}
+
+.thumb img:last-child {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    right: 50px;
+    bottom: -95px;
+    border: 10px solid #ffffff;
+}
+
+.about-info {
+    margin-top: 20px;
+    padding-right: 15px;
+
+}
+
+
+/* About Styles Ends Here */
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  */
+
+
+/* Services Styles Stars Here */
+#services {
+    height: 1025px;
+}
+
+#services .container::before {
+    position: absolute;
+    content: "";
+    background-image: url(../img/shape-8.png);
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+    transform: rotate(-45deg);
+    z-index: -1;
+    right: -235px;
+    top: -92px;
+
+}
+
+.service-cards {
+    min-height: 1000px;
+}
+
+.service-card {
+    width: 32%;
+    float: left;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+    padding: 50px 30px;
+    position: relative;
+    z-index: 3;
+    background-color: #fff;
+}
+
+.service-card:nth-child(2),
+.service-card:nth-child(5) {
+    margin: 0 2%;
+}
+
+.service-card>i {
+    font-size: 50px;
+    color: #ff4949;
+    margin-bottom: 30px;
+}
+
+.service-card .card-link {
+    font-weight: 700;
+    color: #666;
+    text-transform: uppercase;
+    font-size: 14px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.service-card .card-link i {
+    color: #ff4949;
+}
+
+
+.service-card .card-link:hover {
+    color: #ff4949;
+}
+
+
+
+
+/* Services Styles Ends Here */
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  */
+
+
+/* Process Styles Stars Here */
+
+#process {
+    background-image: url(../img/7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 94%;
+    height: 700px;
+    margin: auto;
+    padding: 120px 0;
+    border-radius: 10px;
+    z-index: 1;
+
+}
+
+#process .overlay {
+    border-radius: 10px;
+}
+
+.process-cards {
+    margin-top: 70px;
+}
+
+.process-card {
+    width: 33.33%;
+    float: left;
+}
+
+
+.process-card>i {
+    font-size: 50px;
+    border: 1px dashed #fff;
+    padding: 50px;
+    border-radius: 50%;
+}
+
+.process-card>span {
+    width: 60px;
+    height: 60px;
+    background-color: #ff4949;
+    border: 6px solid #777777;
+    border-radius: 50%;
+    line-height: 50px;
+    font-size: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    right: 110px;
+}
+
+
+/* Process Styles Ends Here */
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  */
+
+
+/* Portfolio Styles Starts Here */
+
+
+.portfolio-cards {
+    padding: 0 15px;
+}
+
+.portfolio-card {
+    width: 25%;
+    height: 25vw;
+    border: 1px solid white;
+    float: left;
+    background-image: url(../img/1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+
+}
+
+.portfolio-card .card-body {
+    /* background-color: #666; */
+    padding: 0px 40px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.porfolio-left {
+    width: 70%;
+    float: left;
+}
+
+.porfolio-right {
+    width: 10%;
+    float: right;
+}
+
+.plusbtn {
+    display: inline-block;
+    font-size: 30px;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background-color: #ffffff;
+    color: #ff4949;
+    border-radius: 50%;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.portfolio-card .card-body .card-title {
+    line-height: 0;
+}
+
+.marketing {
+    background-image: url(../img/1.jpg);
+}
+
+.business {
+    background-image: url(../img/3\ \(1\).jpg);
+}
+
+.profit {
+    background-image: url(../img/2.jpg);
+}
+
+.global {
+    background-image: url(../img/8.jpg);
+}
+
+
+/* Portfolio Styles Ends Here */
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  */
+
+
+/* Expertise Styles Starts Here */
+.expertise {
+    padding: 150px 0;
+    position: relative;
+    height: 700px;
+}
+
+.expertise-box {
+    width: 50%;
+    float: left;
+}
+
+.expertise-text {
+    line-height: 1.2;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+    font-size: 39px;
+}
+
+.progress-box {
+    height: 70px;
+    padding: 0 20px;
+}
+
+.progress-box>h5 {
+    font-weight: 700;
+    margin-bottom: 5px;
+    text-align: left;
+    font-size: 16px;
+    position: relative;
+    z-index: 1;
+}
+
+.progress {
+    height: 20px;
+    background: transparent;
+    border-bottom: 3px solid #dddddd;
+}
+
+.progress-bar {
+    height: 6px;
+    border-radius: 30px;
+    background: #ff4949;
+    top: 16px;
+    position: relative;
+}
+
+.progress-bar span {
+    position: absolute;
+    right: 0;
+    top: -40px;
+    display: block;
+    font-size: 14px;
+    color: #232323;
+    font-weight: 700;
+}
+
+
+/* Expertise Styles Ends Here */
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  */
+
+
+/* Team Styles Starts Here */
+
+.team-cards {
+    min-height: 600px;
+    padding-top: 50px;
+}
+
+.team-card {
+    width: 25%;
+    float: left;
+    position: relative;
+    padding: 0px 15px;
+    /* border: 1px solid #fff; */
+
+}
+
+.image-area img {
+    width: 100%;
+}
+
+.team-card h4 {
+    font-weight: 700;
+    font-size: 20px;
+    /* line-height: 1.2; */
+}
+
+.team-card p {
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #a4a4a4;
+}
+
+/* Team Styles Ends Here */
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  */
+
+
+/* News Styles Starts Here */
+.news-cards {
+    min-height: 700px;
+}
+
+.news-card {
+    width: 33.3%;
+    float: left;
+    padding: 0px 15px;
+}
+
+.news-card img {
+    width: 100%;
+}
+
+.text-area {
+    padding: 20px 20px;
+}
+
+.text-area h4 {
+    font-weight: 600;
+    line-height: 1.4;
+    font-size: 20px;
+}
+
+.text-area p {
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 400;
+    letter-spacing: 0.8px;
+}
+
+.username,
+.text-area span {
+    font-weight: 500;
+    color: #666;
+}
+
+.username i {
+    color: #ff4949
+}
+
+.username span {
+    margin-left: 5px;
+}
+
+/* News Styles Ends Here */
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  */
+
+
+/* Footer Styles Starts Here */
+.mainfooter {
+    background-color: #111D30;
+    padding: 0;
+    height: 550px;
+}
+
+.mainfooter p,
+.mainfooter li {
+    color: #cccccc !important;
+}
+
+.footer-cards {
+    height: 500px;
+    padding: 100px 0;
+}
+
+.footer-card {
+    /* background-color: #ff4949; */
+    float: left;
+}
+
+.footer-about,
+.footer-contact {
+    width: 34%;
+    height: 300px;
+    padding: 0px 15px;
+}
+
+.footer-links,
+.footer-company {
+    width: 16%;
+    height: 300px;
+}
+
+.footer-card-title {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.footer-card p {
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.footer-media {
+    margin-left: -10px;
+}
+
+.footer-media i {
+    background-color: #293445;
+    padding: 15px;
+    border-radius: 50%;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.footer-card li {
+    list-style-type: ">  ";
+    line-height: 3;
+    margin-left: -25px;
+}
+
+.contact-area {
+    height: 100px;
+}
+
+.icon-area i {
+    font-size: 30px;
+}
+
+.icon-area,
+.contact-area p {
+    float: left;
+    margin: 0;
+    padding: 10px;
+
+}
+
+
+
+
+
+/* Footer Styles Ends Here */
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  */
+
+/* Copyright Styles Starts Here */
+.copyright {
+    background-color: #0F1825;
+    height: 100px;
+    border-top: 1px solid #1E2C3B;
+}
+
+.copyright-text {
+    color: #ccc;
+    text-align: center;
+    line-height: 100px;
+    font-weight: 00;
+    font-size: 20px;
+
+
+}
+
+.copyright h5 {
+    margin: 0;
+}
+
+/* Copyright Styles Ends Here */
